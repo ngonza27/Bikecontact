@@ -1,3 +1,15 @@
 <h1>
-  blog works!
+  HOOOOOOOOOOOOOOOOLA!
 </h1>
+<form class="post_comentario">
+  <label for="comentario"> Comentario</label>
+  <input type="text" formControlName="name" 
+                    class="form-control" id="comentario">
+
+  <label for="usuario"> Usuaraio</label>
+  <input type="text" formControlName="name" 
+                    class="form-control" id="usuario">
+
+  <button type="submit" class="btn-save" (ngSubmit)="onSubmitNew()" routerLink="/">Submit</button>
+  <h6>ERROR imprimiendo hola a consola: form not connected??</h6>
+</form>
